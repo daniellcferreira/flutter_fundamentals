@@ -10,15 +10,33 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   var numeroGerado = 0;
+  var quantidadeCliques = 0;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Meu App Flutter")),
-      body: Center(child: Text(numeroGerado.toString())),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Center(
+            child: Text(
+              "Foi clicado $quantidadeCliques vezes",
+              style: const TextStyle(fontSize: 20),
+            ),
+          ),
+          Center(
+            child: Text(
+              "Número gerado: $numeroGerado",
+              style: const TextStyle(fontSize: 20),
+            ),
+          ),
+        ],
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
+            quantidadeCliques++;
             numeroGerado = GeradorNumeroAleatorioService.gerarNumeroAleatorio(
               100,
             );
