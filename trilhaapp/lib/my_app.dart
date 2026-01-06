@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trilhaapp/pages/home_page.dart';
+import 'package:trilhaapp/pages/login_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.red),
-      home: const HomePage(),
+      home: const LoginPage(),
     );
   }
 }
