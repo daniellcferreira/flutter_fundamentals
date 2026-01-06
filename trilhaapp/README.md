@@ -1,16 +1,19 @@
-# trilhaapp
+# TrilhaApp Flutter
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-Framework-02569B?style=flat-square&logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-Linguagem-0175C2?style=flat-square&logo=dart)
+![Android](https://img.shields.io/badge/Android-Kotlin-3DDC84?style=flat-square&logo=android)
+![iOS](https://img.shields.io/badge/iOS-Swift-FA7343?style=flat-square&logo=swift)
 
-## Getting Started
+## Descrição
 
-This project is a starting point for a Flutter application.
+O **TrilhaApp Flutter** é um projeto educacional desenvolvido com o objetivo de praticar os conceitos básicos do Flutter e da linguagem Dart.  
+O projeto aborda organização de código, separação de responsabilidades, gerenciamento de estado com `StatefulWidget` e criação de interfaces utilizando widgets nativos do Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Exibição de número aleatório gerado dinamicamente
+- Contador de cliques acionado por botão flutuante
+- Separação da lógica de negócio em um service dedicado
+- Estrutura modular com páginas e serviços
+- Tela inicial (HomePage) e layout base de tela de login
