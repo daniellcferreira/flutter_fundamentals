@@ -28,4 +28,3 @@ Este material é indicado para iniciantes que desejam consolidar conhecimentos t
 - Uso do Dart como linguagem principal de desenvolvimento  
 - Organização de código voltada para boas práticas iniciais  
 - Apoio ao aprendizado progressivo do ecossistema Flutter  
-
